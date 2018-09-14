@@ -1,0 +1,23 @@
+p, li, h1 { /* selector de elemento */
+    color: blue;
+    width: 500px;
+    border: 1px solid black;
+}
+
+#niveles { /* selector de identidad */
+background-color: yellow;
+font-family: 'Quicksand', sans-serif;
+padding: 10px 30px;
+border: 5px dashed blue;
+margin: 0 auto;
+}
+
+.diferente { /* selector de clase */
+color: red;
+border: 2px solid blue;
+}
+
+#niveles:hover {
+    color: purple;
+    background-color: black;
+}
